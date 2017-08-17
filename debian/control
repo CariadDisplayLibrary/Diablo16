@@ -1,0 +1,18 @@
+Source: libdisplaycore-driver-diablo16
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-diablo16
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: Diablo16.h
+Description: Diablo16 library
+
+
+
