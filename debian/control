@@ -12,7 +12,8 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core
 Provides: Diablo16.h
+Replaces: libdisplaycore-font-diablo16
 Description: Diablo16 library
-
+ Driver for Diablo16 based displays from 4D systems
 
 
