@@ -155,7 +155,7 @@ class Diablo16 : public DisplayCore {
         Stream *_dev;
         int _reset;
 
-        int _timeout;
+        uint32_t _timeout;
 
         bool command(const uint16_t *data, int len) {
             for (int i = 0; i < len; i++) {
@@ -184,10 +184,10 @@ class Diablo16 : public DisplayCore {
 
     
         // Dummy functions - not supported
-        void invertDisplay(boolean i) {}
+        void invertDisplay(boolean __attribute__((unused)) i) {}
         void displayOn() {}
         void displayOff() {}
-        void setRotation(int r) {}
+        void setRotation(int __attribute__((unused)) r) {}
     
 };
 
