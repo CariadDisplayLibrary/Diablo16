@@ -184,7 +184,7 @@ class Diablo16 : public DisplayCore {
 
     
         // Dummy functions - not supported
-        void invertDisplay(boolean __attribute__((unused)) i) {}
+        void invertDisplay(bool __attribute__((unused)) i) {}
         void displayOn() {}
         void displayOff() {}
         void setRotation(int __attribute__((unused)) r) {}
