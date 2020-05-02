@@ -1,9 +1,9 @@
 #ifndef _DIABLO16_H
 #define _DIABLO16_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
-class Diablo16 : public DisplayCore {
+class Diablo16 : public Cariad {
     private:
 
         static const int F_blitComtoDisplay         = 35;

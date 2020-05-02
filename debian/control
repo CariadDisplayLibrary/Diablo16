@@ -1,18 +1,19 @@
-Source: libdisplaycore-driver-diablo16
+Source: libcariad-driver-diablo16
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-diablo16
+Package: libcariad-driver-diablo16
+Replaces: libdisplaycore-driver-diablo16
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: Diablo16.h
-Replaces: libdisplaycore-font-diablo16
+Replaces: libcariad-font-diablo16
 Description: Diablo16 library
  Driver for Diablo16 based displays from 4D systems
 
